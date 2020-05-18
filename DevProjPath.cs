@@ -23,6 +23,7 @@ namespace BusinessObjects
         public string DevSLNPath { get; set; }
         public string GitURL { get; set; }
         public bool CountLines { get; set; }
+        public bool Selected { get; set; }
         #endregion // public members
 
 
