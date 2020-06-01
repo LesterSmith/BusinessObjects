@@ -15,7 +15,7 @@ namespace BusinessObjects
         public string Machine { get; set; }
         public string UserName { get; set; }
         public string IDEAppName { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
         public DateTime CompletedDate { get; set; }
         public bool DatabaseProject { get; set; }
         public string SyncID { get; set; }
