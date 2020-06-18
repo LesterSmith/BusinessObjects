@@ -8,10 +8,8 @@ namespace BusinessObjects
 {
     public class DeveloperNames
     {
-        #region public members
         public string UserName { get; set; }
         public string UserDisplayName { get; set; } 
         public bool Selected { get; set; }
-        #endregion
     }
 }

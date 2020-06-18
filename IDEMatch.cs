@@ -8,7 +8,6 @@ namespace BusinessObjects
 {
     public class IDEMatch
     {
-        #region public members
         public string ID { get; set; }
         public string Regex { get; set; }
         public string RegexGroupName { get; set; }
@@ -23,7 +22,6 @@ namespace BusinessObjects
         public string AlternateProjName { get; set; }
         public int Sequence { get; set; }
         public bool IsDBEngine { get; set; }
-        #endregion // public members
 
     }
 }

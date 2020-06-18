@@ -8,7 +8,6 @@ namespace BusinessObjects
 {
     public class CalendarMeeting
     {
-        #region public members
         public string ID { get; set; }
         public string Subject { get; set; }
         public string Organizer { get; set; }
@@ -17,7 +16,5 @@ namespace BusinessObjects
         public bool Recurring { get; set; }
         public string UserName { get; set; }
         public string UserDisplayName { get; set; }
-        #endregion // public members
-
     }
 }

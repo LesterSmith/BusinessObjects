@@ -8,7 +8,6 @@ namespace BusinessObjects
 {
     public class FileActivity
     {
-        #region public members
         public string ID { get; set; }
         public string Machine { get; set; }
         public string DevProjName { get; set; }
@@ -30,8 +29,5 @@ namespace BusinessObjects
         public int CommentLines { get; set; }
         public int DesignerLines { get; set; }
         public string SyncID { get; set; }
-        #endregion // public members
-
-
     }
 }

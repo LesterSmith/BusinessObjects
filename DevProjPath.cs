@@ -8,7 +8,6 @@ namespace BusinessObjects
 {
     public class DevProjPath
     {
-        #region public members
         public string ID { get; set; }
         public string DevProjectName { get; set; }
         public string DevProjectPath { get; set; }
@@ -24,8 +23,6 @@ namespace BusinessObjects
         public string GitURL { get; set; }
         public bool CountLines { get; set; }
         public bool Selected { get; set; }
-        #endregion // public members
-
 
     }
 }

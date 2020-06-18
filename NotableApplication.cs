@@ -8,7 +8,6 @@ namespace BusinessObjects
 {
     public class NotableApplication
     {
-        #region public members
         public string ID { get; set; }
         public string AppName { get; set; }
         public string AppFriendlyName { get; set; }
@@ -20,7 +19,6 @@ namespace BusinessObjects
         /// </summary>
         public string InterestingTitle { get; set; }
         public bool Selected { get; set; }
-        #endregion // public members
 
     }
 }

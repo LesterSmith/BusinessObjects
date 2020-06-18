@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BusinessObjects
 {
@@ -18,7 +15,8 @@ namespace BusinessObjects
         ProjectSummaryByUser = 1,
         DeveloperDetail = 2,
         ApplicationUsage = 3,
-        ProjectSummaryByProject = 4
+        ProjectSummaryByProject = 4,
+        ProjectDetail = 5
     }
 
     public class ReporterParms

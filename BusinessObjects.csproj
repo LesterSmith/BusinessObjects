@@ -54,9 +54,11 @@
     <Compile Include="NotableFileExtension.cs" />
     <Compile Include="NotableFiles.cs" />
     <Compile Include="ConfigOption.cs" />
+    <Compile Include="ProjAndSyncReport.cs" />
     <Compile Include="ProjectAndSync.cs" />
     <Compile Include="ProjectFiles.cs" />
     <Compile Include="ProjectName.cs" />
+    <Compile Include="ProjectNameAndSync.cs" />
     <Compile Include="ProjectsAndSyncs.cs" />
     <Compile Include="ProjectSync.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
