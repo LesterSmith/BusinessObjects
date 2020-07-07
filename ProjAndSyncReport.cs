@@ -17,6 +17,7 @@ namespace BusinessObjects
         public string DevSLNPath { get; set; }
         public string GitURL { get; set; }
         public bool Selected { get; set; }
+        public bool DatabaseProject { get; set; }
     }
 
     public class ReportUserNames

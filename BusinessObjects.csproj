@@ -46,6 +46,7 @@
     <Compile Include="CalendarMeeting.cs" />
     <Compile Include="DeveloperNames.cs" />
     <Compile Include="DevProjPath.cs" />
+    <Compile Include="ErrorLog.cs" />
     <Compile Include="FileActivity.cs" />
     <Compile Include="FileChange.cs" />
     <Compile Include="IDEMatch.cs" />
